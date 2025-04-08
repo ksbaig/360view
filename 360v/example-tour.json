@@ -1,14 +1,14 @@
 ﻿{
     "default": {
-        "author": "Intergraph office",
-        "firstScene": "Dammam",
+        "author": "Matthew Petroff",
+        "firstScene": "pond",
         "sceneFadeDuration": 2000
     },
     
     "scenes": {
         "pondCube": {
-            "title": "Intergraph office",
-            "type": "Dammam",
+            "title": "Jordan Pond (Cube)",
+            "type": "cubemap",
             "cubeMap": [
                 "./examplepanocube0.jpg",
                 "./examplepanocube1.jpg",
@@ -22,7 +22,7 @@
                     "pitch": -12,
                     "yaw": 170,
                     "type": "info",
-                    "text": "Integraph office."
+                    "text": "This is Jordan Pond, located in Acadia National Park."
                 },
                 {
                     "pitch": -10,
@@ -42,15 +42,15 @@
         },
 
         "pond": {
-            "title": "Intergraph",
+            "title": "Jordan Pond",
             "panorama": "./examplepanocube6.jpg",
             "hotSpots": [
                 {
                     "pitch": 0,
                     "yaw": 100,
                     "type": "scene",
-                    "text": "Intergraph",
-                    "sceneId": "Dammam"
+                    "text": "Pond (cube)",
+                    "sceneId": "pondCube"
                 }
             ]
         }
